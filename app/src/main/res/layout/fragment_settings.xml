@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.settings.SettingsFragment">
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Name"
+            android:background="#FFEB3B"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="My Smart Home"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/Name1"
+            android:background="#E1D9D1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="70dp"
+            android:text="User Settings"
+            android:textAlignment="textStart"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/moses"
+            android:background="#FFE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:text="Moses"
+            android:textAlignment="textStart"
+
+            android:drawableLeft="@drawable/account"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/Name3"
+            android:background="#E1D9D1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="200dp"
+            android:text="Home Settings"
+            android:textAlignment="textStart"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/hubs"
+            android:layout_width="404dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="260dp"
+            android:background="#FFE"
+            android:drawableLeft="@drawable/person1"
+            android:text="Accounts &amp; Hubs"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/clients"
+            android:layout_width="404dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="310dp"
+            android:background="#FFE"
+            android:drawableLeft="@drawable/people"
+            android:text="Clients"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="404dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="360dp"
+            android:background="#FFE"
+            android:drawableLeft="@drawable/location"
+            android:text="Locations"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/Voice"
+            android:background="#E1D9D1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="400dp"
+            android:text="Voice"
+            android:textAlignment="textStart"
+            android:textSize="35dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/voice"
+            android:layout_width="404dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="460dp"
+            android:background="#FFE"
+            android:drawableLeft="@drawable/baseline_record_voice_over_24"
+            android:text="Voice Assistants"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/permissions"
+            android:background="#E1D9D1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="510dp"
+            android:text="App permissions"
+            android:textAlignment="textStart"
+            android:textSize="35dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/notifications"
+            android:layout_width="404dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="570dp"
+            android:background="#FFE"
+            android:drawableLeft="@drawable/settings1"
+            android:text="Notifications &amp; Permissions"
+            android:textColor="@color/black"
+
+            android:textSize="25dp" />
+    </FrameLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
