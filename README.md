@@ -1,6 +1,6 @@
 # Smart Home Android App
 
-Welcome to our Smart Home Android application! This app allows you to control your home devices remotely from your Android device.
+Welcome to our Smart Home Android application! This application allows you to control your home devices remotely from your Android device.
 
 ## Features
 
